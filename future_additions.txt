@@ -6,3 +6,4 @@
 - fix cursor style in to-do list section
 - add dropshadow to panels and timer
 - fix spotify feature to play full songs instead of previews (maybe add yt playlist instead?)
+- personalized domain name :)
