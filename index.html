@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+
+<body>
+    <div class="container">
+      <div class="left-panel">
+         <h2>ambience</h2>
+         <div class="sound-section">
+             <label for="rain-audio" class="sound-label">
+               <i class="fas fa-cloud-rain"></i>
+             </label>
+             <audio id="rain-audio"  loop><source src="sounds/rain.mp3" type="audio/mpeg"></audio>
+           
+             <label for="forest-audio" class="sound-label">
+               <i class="fas fa-tree"></i>
+             </label>
+             <audio id="forest-audio"  loop><source src="sounds/forest.mp3" type="audio/mpeg"></audio>
+         
+             <label for="waves-audio" class="sound-label">
+               <i class="fas fa-water"></i>
+             </label>
+             <audio id="waves-audio"  loop><source src="sounds/waves.mp3" type="audio/mpeg"></audio>
+        
+            <label for="fire-audio" class="sound-label">
+               <i class="fa-solid fa-fire"></i>
+            </label>
+            <audio id="fire-audio"  loop><source src="sounds/fire.mp3" type="audio/mpeg"></audio>
+         </div>
+         <p>
+          <div class="spotify-panel">
+            <h2>bee & puppycat OST</h2>
+            <iframe id="spotify-audio" style="border-radius:10px" src="https://open.spotify.com/embed/playlist/7BAiMH4T4x3InupFlrzyla?utm_source=generator&theme=0"
+            width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+          </div>
+      </div>
+    
+
+    <div class="center-panel">
+       <div class="timer">
+          <div class="button-container"></div>
+            <button class="button" id="pomodoro">pomodoro</button>
+            <button class="button" id="short-break">short break</button>
+            <button class="button" id="long-break">long break</button>
+       </div>
+
+       <main>
+          <div class="pomodoro">
+            <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
+              <h1 class="time">25:00</h1>
+            </div>
+            <div id="short-timer" class="timer-display" data-duration="5.00">
+              <h1 class="time">5:00</h1>
+            </div>
+            <div id="long-timer" class="timer-display" data-duration="10.00">
+              <h1 class="time">10:00</h1>
+            </div>
+          </div>
+       </main>
+
+       <div class="buttons">
+        <button id="start">start</button>
+        <button id="stop">stop</button>
+        <button id="reset">reset</button>
+       </div>
+
+
+
+    </div>
+        <div class="right-panel">
+            <h2>to do list</h2>
+              <div class="row">
+                <input type="text" id="input-box" placeholder="write task, then press add">
+                <button onclick="addTask()">add</button>
+              </div>
+              <ul id="list-container"></ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
