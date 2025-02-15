@@ -277,10 +277,10 @@ ul li span:hover {
 }
 .spotify-panel {
   position: absolute;
-  bottom: 20px; /* 20px from the bottom */
-  left: 50%; /* Centering horizontally */
-  transform: translateX(-50%); /* Adjusting for exact centering */
-  width: 90%; /* Ensuring it doesn't exceed the panel width */
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
 }
 
   .sound-section p {
