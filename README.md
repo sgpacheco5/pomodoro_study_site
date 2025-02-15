@@ -1,5 +1,7 @@
 A cozy study timer application where the user can adjust the study time, pick their preferred ambient noise, listen to the Bee and Puppycat OST, and create a personalized to-do list
 
+Click this link to use it: https://sgpacheco5.github.io/pomodoro_study_site/
+
 CREDIT:
 learning sources that helped me make this application:
     timer:
@@ -10,4 +12,4 @@ learning sources that helped me make this application:
 
 background image source:https://www.pinterest.com/pin/457959855863616461/
 
-
+Thanks for checking it out!
