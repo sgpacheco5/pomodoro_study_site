@@ -3,3 +3,6 @@
 - gradient animated black and purple background
 - make spotify playlist load in quicker/ figure out if I can add volume control to it
 - fix add button formatting in to-do list
+- fix cursor style in to-do list section
+- add dropshadow to panels and timer
+- fix spotify feature to play full songs instead of previews (maybe add yt playlist instead?)
