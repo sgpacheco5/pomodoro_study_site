@@ -1,0 +1,5 @@
+- more ambient noise options
+- gradient background in pomodoro timer
+- gradient animated black and purple background
+- make spotify playlist load in quicker/ figure out if I can add volume control to it
+- fix add button formatting in to-do list
