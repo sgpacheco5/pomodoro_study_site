@@ -3,7 +3,10 @@
 - gradient animated black and purple background
 - make spotify playlist load in quicker/ figure out if I can add volume control to it
 - fix add button formatting in to-do list
+- fix check box formatting on to-do list
 - fix cursor style in to-do list section
 - add dropshadow to panels and timer
 - fix spotify feature to play full songs instead of previews (maybe add yt playlist instead?)
 - personalized domain name :)
+- set fixed height for to-do and allow scrolling for longer lists
+- make website more dynamic
