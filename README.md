@@ -1,4 +1,4 @@
-A cozy study timer application where the user can adjust the study time, pick their preferred ambient noise, listen to the Bee and Puppycat OST, and create a personalized to-do list
+A cozy pomodoro-style study timer web app I made for myself to practice the pomodoro study method.
 
 Click this link to use it: https://sgpacheco5.github.io/pomodoro_study_site/
 
